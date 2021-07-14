@@ -1,5 +1,78 @@
-div {
-  border: 1px solid red;
-  color: green;
+body {
+  margin: 0;
+  text-align: center;
+  line-height: 1.7;
+}
+
+/*Navigation*/
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  padding: 30px 20px;
+  font-size: 15px;
+}
+
+.logo {
+  color: gold;
+  font-size: 24px;
+  margin-left: 0;
+}
+
+/*Splash*/
+.splash {
+  height: 107vh;
+  background: url("https://i.postimg.cc/wTFVK9zm/vadim-sherbakov-30-unsplash.jpg");
+  color: #ffffff;
+  background-size: cover;
+  position: relative;
+}
+
+.splash-inner {
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-width: 900px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  margin: 0;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 20px 60px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: grey;
 }
 /*# sourceMappingURL=style.css.map */
