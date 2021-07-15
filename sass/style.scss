@@ -38,7 +38,7 @@ li {
 
 /*Splash*/
 .splash {
-  height: 100vh;
+  height: 107vh;
   background: url("https://i.postimg.cc/wTFVK9zm/vadim-sherbakov-30-unsplash.jpg");
   color: #ffffff;
   background-size: cover;
@@ -139,4 +139,37 @@ li {
 img {
   vertical-align: middle;
   border-style: none;
+}
+
+/*Footer*/
+.page-footer {
+  background-color: #ffffff;
+  padding: 40px 0;
+  position: relative;
+}
+
+.page-footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-footer li {
+  font-size: 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.icon-social {
+  font-size: 20px;
+  background-color: #333333;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.page-footer a {
+  text-decoration: none;
 }
