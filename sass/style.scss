@@ -2,7 +2,11 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.4;
+}
+
+.container {
+  padding: 0 60px;
 }
 
 /*Navigation*/
@@ -31,9 +35,12 @@ li {
 }
 
 .logo {
+  color: gold;
   font-family: "Great Vibes", cursive;
-  font-size: 26px;
+  font-size: 28px;
   letter-spacing: 3px;
+  position: absolute;
+  left: 90px;
 }
 
 /*Splash*/
@@ -56,7 +63,7 @@ li {
 }
 
 .page-title {
-  margin: 0;
+  margin: 100px 0 0 0;
   font-family: "Lora", serif;
   font-size: 40px;
   font-weight: 400;
@@ -64,13 +71,16 @@ li {
 }
 
 .page-subtitle {
-  margin: 0;
-  font-size: 72px;
+  margin: 10px 0 10px 0;
+  font-size: 74px;
   font-weight: 700;
 }
 
 .btn {
-  padding: 20px 60px;
+  display: inline-block;
+  min-width: 250px;
+  padding: 20px;
+  margin: 30px 0 0 0;
   border-radius: 5px;
   color: #ffffff;
   font-size: 16px;
@@ -118,6 +128,10 @@ li {
   padding-bottom: 20px;
 }
 
+.section-row {
+  margin: 45px 0;
+}
+
 /*Portfolio*/
 .portfolio {
   background-color: #f0f0f0;
@@ -126,7 +140,7 @@ li {
 
 .card {
   background-color: #ffffff;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .card-image {
@@ -147,7 +161,10 @@ img {
 .page-footer {
   background-color: #ffffff;
   padding: 40px 0;
-  position: relative;
+}
+
+.position-copyright {
+  align-items: center;
 }
 
 .page-footer ul {
@@ -159,7 +176,7 @@ img {
 .page-footer li {
   font-size: 0;
   display: inline-block;
-  padding: 5px;
+  padding: 2px;
 }
 
 .icon-social {
