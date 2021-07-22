@@ -1,3 +1,4 @@
+/*Variables*/
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -29,7 +30,7 @@ li {
 }
 
 .logo {
-  color: gold;
+  color: #f9ca24;
   font-family: "Great Vibes", cursive;
   font-size: 28px;
   letter-spacing: 3px;
@@ -81,11 +82,10 @@ li {
   font-size: 16px;
   text-decoration: none;
   cursor: pointer;
-  background-color: yellow;
+  background-color: #f9ca24;
 }
 
 .btn:hover {
-  background-color: orange;
   color: grey;
 }
 
@@ -98,12 +98,12 @@ li {
 .icons {
   font-size: 36px;
   background-color: #ffffff;
-  color: yellow;
+  color: #f9ca24;
   width: 72px;
   height: 72px;
   line-height: 72px;
   border-radius: 50%;
-  border: 3px solid yellow;
+  border: 3px solid #f9ca24;
 }
 
 .description {
@@ -179,8 +179,8 @@ img {
 
 .icon-social {
   font-size: 20px;
-  background-color: #333333;
   color: #ffffff;
+  background-color: #333333;
   width: 40px;
   height: 40px;
   line-height: 40px;

@@ -1,3 +1,9 @@
+/*Variables*/
+$bright-font: #ffffff;
+$details-color: #f9ca24;
+$dark-background: #f0f0f0;
+$icon-social: #333333;
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -23,11 +29,8 @@ body {
 
 .navigation a {
   text-decoration: none;
-  color: #ffffff;
+  color: $bright-font;
 }
-
-// a:hover {
-// }
 
 li {
   padding: 30px 20px;
@@ -35,7 +38,7 @@ li {
 }
 
 .logo {
-  color: gold;
+  color: $details-color;
   font-family: "Great Vibes", cursive;
   font-size: 28px;
   letter-spacing: 3px;
@@ -47,7 +50,7 @@ li {
 .splash {
   height: 107vh;
   background: url("https://i.postimg.cc/wTFVK9zm/vadim-sherbakov-30-unsplash.jpg");
-  color: #ffffff;
+  color: $bright-font;
   background-size: cover;
   position: relative;
 }
@@ -82,15 +85,15 @@ li {
   padding: 20px;
   margin: 30px 0 0 0;
   border-radius: 5px;
-  color: #ffffff;
+  color: $bright-font;
   font-size: 16px;
   text-decoration: none;
   cursor: pointer;
-  background-color: yellow;
+  background-color: $details-color;
 }
 
 .btn:hover {
-  background-color: orange;
+  $details-color: #f9ca24;
   color: grey;
 }
 
@@ -102,13 +105,13 @@ li {
 
 .icons {
   font-size: 36px;
-  background-color: #ffffff;
-  color: yellow;
+  background-color: $bright-font;
+  color: $details-color;
   width: 72px;
   height: 72px;
   line-height: 72px;
   border-radius: 50%;
-  border: 3px solid yellow;
+  border: 3px solid $details-color;
 }
 
 .description {
@@ -134,12 +137,12 @@ li {
 
 /*Portfolio*/
 .portfolio {
-  background-color: #f0f0f0;
+  background-color: $dark-background;
   padding: 60px 0;
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: $bright-font;
   margin-bottom: 30px;
 }
 
@@ -159,7 +162,7 @@ img {
 
 /*Footer*/
 .page-footer {
-  background-color: #ffffff;
+  background-color: $bright-font;
   padding: 40px 0;
 }
 
@@ -181,8 +184,8 @@ img {
 
 .icon-social {
   font-size: 20px;
-  background-color: #333333;
-  color: #ffffff;
+  color: $bright-font;
+  background-color: $icon-social;
   width: 40px;
   height: 40px;
   line-height: 40px;
