@@ -1,4 +1,5 @@
 /*Variables*/
+/*Global*/
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -7,7 +8,7 @@ body {
 }
 
 .container {
-  padding: 0 60px;
+  width: 80%;
 }
 
 /*Navigation*/
@@ -34,17 +35,15 @@ li {
   font-family: "Great Vibes", cursive;
   font-size: 28px;
   letter-spacing: 3px;
-  position: absolute;
-  left: 90px;
 }
 
 /*Splash*/
 .splash {
-  height: 107vh;
+  min-height: 700px;
   background: url("https://i.postimg.cc/wTFVK9zm/vadim-sherbakov-30-unsplash.jpg");
+  position: relative;
   color: #ffffff;
   background-size: cover;
-  position: relative;
 }
 
 .splash-inner {
@@ -55,11 +54,10 @@ li {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  min-width: 900px;
 }
 
 .page-title {
-  margin: 100px 0 0 0;
+  margin: 110px 0 0 0;
   font-family: "Lora", serif;
   font-size: 40px;
   font-weight: 400;
@@ -80,16 +78,17 @@ li {
   border-radius: 5px;
   color: #ffffff;
   font-size: 16px;
+  font-weight: 700;
   text-decoration: none;
   cursor: pointer;
   background-color: #f9ca24;
 }
 
 .btn:hover {
-  color: grey;
+  cursor: pointer;
 }
 
-/*Services*/
+/*services*/
 .services {
   background-color: #ffffff;
   padding: 60px 0;
@@ -130,7 +129,7 @@ li {
 /*Portfolio*/
 .portfolio {
   background-color: #f0f0f0;
-  padding: 60px 0;
+  padding: 50px 0;
 }
 
 .card {
@@ -179,8 +178,8 @@ img {
 
 .icon-social {
   font-size: 20px;
-  color: #ffffff;
   background-color: #333333;
+  color: #ffffff;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -189,5 +188,22 @@ img {
 
 .page-footer a {
   text-decoration: none;
+}
+
+/*Media*/
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  li {
+    padding: 15px 6px;
+    font-size: 14px;
+  }
+  .page-title {
+    font-size: 20px;
+  }
+  .page-subtitle {
+    font-size: 37px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
